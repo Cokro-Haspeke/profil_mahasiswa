@@ -16,7 +16,11 @@ class InfoRow extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 8.0),
       child: Row(
         children: [
-          Icon(icon, color: iconColor ?? Colors.blue, size: 24),
+          Icon(
+            icon,
+            color: iconColor ?? const Color.fromARGB(255, 39, 161, 202),
+            size: 24,
+          ),
           const SizedBox(width: 12),
           Expanded(child: Text(label, style: const TextStyle(fontSize: 16))),
         ],
