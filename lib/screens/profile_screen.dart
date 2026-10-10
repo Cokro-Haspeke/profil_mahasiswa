@@ -40,8 +40,8 @@ class ProfileScreen extends StatelessWidget {
               child: Center(
                 child: SingleChildScrollView(
                   child: ProfileHeader(
-                    name: 'Nama Mahasiswa',
-                    nim: '21.11.0000',
+                    name: 'Cokrowijoyo Maspeke',
+                    nim: '25.11.6310',
                   ),
                 ),
               ),
@@ -55,7 +55,7 @@ class ProfileScreen extends StatelessWidget {
                   children: [
                     ProfileInfo(
                       programStudi: 'S1 Informatika',
-                      email: 'email@students.amikom.ac.id',
+                      email: 'c.maspeke@students.amikom.ac.id',
                       lokasi: 'Yogyakarta, Indonesia',
                     ),
                     SizedBox(height: 8),
